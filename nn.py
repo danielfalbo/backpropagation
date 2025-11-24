@@ -21,7 +21,18 @@ class Layer:
         outs = [n(x) for n in self.neurons]
         return outs
 
+class MLP:
+
+    def __init__(self, nin, nouts):
+        sz = [nin] + nouts
+        self.layers = [Layer(sz[i], sz[i+1]) for i in range(len(nouts))]
+
+    def __call__(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
 if __name__ == "__main__":
-    n = Layer(2, 3)
-    x = map(Value, [2.0, 3.0])
+    n = MLP(3, [4, 4, 1])
+    x = map(Value, [2.0, 3.0, -1.0])
     print(n(x))
