@@ -3,7 +3,9 @@
 ## running the notebook
 
 ```bash
-uv run --with matplotlib --with numpy jupyter notebook
+brew install graphviz
+
+uv run --with matplotlib --with numpy --with graphviz jupyter notebook
 ```
 
 ## resources
