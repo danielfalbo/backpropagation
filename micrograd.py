@@ -4,6 +4,7 @@ class Value:
         self._prev = set(_parents)
         self._op = _op
         self.label = label
+        self.grad = 0.0
     def __repr__(self):
         return f"Value(data={self.data})"
     def __add__(self, other):
