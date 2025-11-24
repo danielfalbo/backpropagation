@@ -23,6 +23,12 @@ class Value:
 
         return out
 
+    def __neg__(self):
+        return self * Value(-1)
+
+    def __sub__(self, other):
+        return self + (-other)
+
     def __mul__(self, other):
         out = Value(self.data * other.data, (self, other), '*')
 
