@@ -1,11 +1,17 @@
 # backpropagation
 
-## running the notebook
+## running notebooks
 
 ```bash
 brew install graphviz
 
 uv run --with matplotlib --with numpy --with graphviz jupyter notebook
+```
+
+## running scripts
+
+```bash
+uv run --with torch micrograd.py
 ```
 
 ## resources
