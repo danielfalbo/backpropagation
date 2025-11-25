@@ -5,7 +5,7 @@
 ```bash
 brew install graphviz
 
-uv run --with matplotlib --with numpy --with graphviz jupyter notebook
+uv run --with matplotlib --with numpy --with graphviz --with torch jupyter notebook
 ```
 
 ## running scripts
