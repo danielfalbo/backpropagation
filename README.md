@@ -17,3 +17,5 @@ uv run --with torch micrograd.py
 ## resources
 
 1. ["The spelled-out intro to neural networks and backpropagation: building micrograd" by Karpathy](https://youtu.be/VMj-3S1tku0)
+
+- ["Yes you should understand backprop." by Karpathy](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
