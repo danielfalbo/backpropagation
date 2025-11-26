@@ -24,3 +24,4 @@ uv run --with numpy --with torch nn.py
 - [CS231n Assignments](https://cs231n.github.io/)
 - ["Neural networks" playlist by 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - ["Deep Learning with Python" by François Chollet](https://deeplearningwithpython.io/)
+- ["MNIST classifier from scratch" by geohot](https://youtu.be/JRlyw6LO5qo)
