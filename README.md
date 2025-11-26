@@ -22,3 +22,4 @@ uv run --with numpy --with torch nn.py
 - ["Yes you should understand backprop." by Karpathy](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
 - [CS231n Winter 2016](https://youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
 - [CS231n Assignments](https://cs231n.github.io/)
+- ["Neural networks" playlist by 3Blue1Brown](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
