@@ -11,7 +11,8 @@ uv run --with matplotlib --with numpy --with graphviz --with torch --with jupyte
 ## running scripts
 
 ```bash
-uv run --with torch micrograd.py
+uv run --with numpy --with torch micrograd.py
+uv run --with numpy --with torch nn.py
 ```
 
 ## resources
